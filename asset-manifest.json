@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.92624667.css",
-    "main.js": "./static/js/main.907db214.js",
+    "main.js": "./static/js/main.edbb46e2.js",
     "static/media/ecommerce.png": "./static/media/ecommerce.522da76635d52117102b.png",
     "static/media/sidebar.png": "./static/media/sidebar.b2225070b8adae68d063.png",
     "static/media/musicapp.png": "./static/media/musicapp.f1c301f91904ef5f9249.png",
@@ -16,10 +16,10 @@
     "static/media/glasses.png": "./static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "./index.html",
     "main.92624667.css.map": "./static/css/main.92624667.css.map",
-    "main.907db214.js.map": "./static/js/main.907db214.js.map"
+    "main.edbb46e2.js.map": "./static/js/main.edbb46e2.js.map"
   },
   "entrypoints": [
     "static/css/main.92624667.css",
-    "static/js/main.907db214.js"
+    "static/js/main.edbb46e2.js"
   ]
 }
