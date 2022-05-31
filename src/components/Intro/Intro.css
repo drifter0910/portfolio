@@ -89,3 +89,22 @@
   top: -18%;
   left: 50%;
 }
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+    margin-top: 2rem;
+    height: 60rem;
+    gap: 5rem;
+  }
+  .i-left {
+    flex: none;
+  }
+  .i-right {
+    transform: scale(0.8);
+    left: -3rem;
+  }
+  .i-icons {
+    margin: 0;
+  }
+}

@@ -5,6 +5,7 @@
   --gray: #788097;
   --blueCard: #ddf8fe;
   --purple: rgb(238 210 255);
+  --pp: #ee82ee;
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --orangeCard: rgba(252, 166, 31, 0.45);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
@@ -30,4 +31,86 @@
   cursor: pointer;
   color: var(--orange);
   border: 1px solid var(--orange);
+}
+.menu {
+  width: 40%;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+}
+.menumask {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 20%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0rem 0rem;
+  }
+  .menu {
+    position: fixed;
+    left: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .App {
+    padding: 0 0rem;
+  }
+  .n-wrapper {
+    padding: 0 2rem;
+  }
+  .i-right > * {
+    z-index: 0 !important;
+  }
+  .intro {
+    padding: 0 2rem;
+  }
+  .n-right {
+    display: none;
+  }
+  .n-button {
+    display: none;
+  }
+  .bar {
+    position: absolute;
+    padding: 1rem;
+    top: 2%;
+    right: 0;
+    font-size: 2rem;
+  }
+  .nav-list {
+    flex: none;
+    list-style: none;
+    gap: 2rem;
+  }
+  .nav-list > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+  }
+  .n-list {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .bar {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .menumask {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1300) {
 }
